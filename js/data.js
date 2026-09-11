@@ -4,6 +4,7 @@
  * 主題：Beginning Sounds & Long Vowels (Silent E / Two Vowels)
  */
 
+window.BOOK_ID = "P3";
 const P3_VOCABULARY = [
   {
     "id": "June",
@@ -610,40 +611,29 @@ const P3_VOCABULARY = [
 // 自然發音/首音分組（對應課本 Page 04 - 12）
 const PHONICS_GROUPS = {
   "Ll": [
-    "like",
-    "look",
-    "love",
     "leaf",
-    "library",
-    "listen",
     "lake",
-    "line"
+    "line",
+    "lake"
   ],
   "Nn": [
-    "no",
-    "name",
     "nose",
     "night",
-    "number",
-    "net"
+    "net",
+    "name"
   ],
   "Yy": [
-    "yes",
-    "you",
     "yellow",
-    "yard",
-    "yummy",
-    "yo-yo"
+    "yard"
   ]
 };
 
 // 課文動作與問答情境題庫
 const ANIMAL_ACTION_QUESTIONS = [
   {
-    "subject": "Boy",
-    "action": "eat",
-    "sentence": "He can eat the sweet cake!",
-    "question": "What can he eat?",
+    "sentence": "Paige likes to eat sweet birthday cake.",
+    "question": "What does Paige like to eat?",
+    "ttsPrompt": "Paige likes to eat sweet birthday cake. What does Paige like to eat?",
     "options": [
       "cake",
       "bike",
@@ -652,22 +642,20 @@ const ANIMAL_ACTION_QUESTIONS = [
     "correct": "cake"
   },
   {
-    "subject": "Girl",
-    "action": "ride",
-    "sentence": "She can ride her red bike.",
-    "question": "What can she ride?",
+    "sentence": "Angelo can ride his brand new red bike.",
+    "question": "What can Angelo ride?",
+    "ttsPrompt": "Angelo can ride his brand new red bike. What can Angelo ride?",
     "options": [
       "bike",
       "leaf",
-      "rose"
+      "door"
     ],
     "correct": "bike"
   },
   {
-    "subject": "Child",
-    "action": "play",
-    "sentence": "We play a fun game together.",
-    "question": "What do we play?",
+    "sentence": "Children play a happy game on a sunny day.",
+    "question": "What do the children play?",
+    "ttsPrompt": "Children play a happy game on a sunny day. What do the children play?",
     "options": [
       "game",
       "feet",
@@ -676,28 +664,26 @@ const ANIMAL_ACTION_QUESTIONS = [
     "correct": "game"
   },
   {
-    "subject": "Goat",
-    "action": "float",
-    "sentence": "The boat can float on water.",
-    "question": "What can the boat do?",
+    "sentence": "Look at the big wooden gate beside the lake.",
+    "question": "What is beside the lake?",
+    "ttsPrompt": "Look at the big wooden gate beside the lake. What is beside the lake?",
+    "options": [
+      "gate",
+      "cone",
+      "cube"
+    ],
+    "correct": "gate"
+  },
+  {
+    "sentence": "The little sailboat can float on the blue lake.",
+    "question": "What can the boat do on the lake?",
+    "ttsPrompt": "The little sailboat can float on the blue lake. What can the boat do?",
     "options": [
       "float",
       "eat",
       "dive"
     ],
     "correct": "float"
-  },
-  {
-    "subject": "Duck",
-    "action": "dive",
-    "sentence": "He can dive into the cool lake.",
-    "question": "What can he do?",
-    "options": [
-      "dive",
-      "blow",
-      "bake"
-    ],
-    "correct": "dive"
   }
 ];
 
